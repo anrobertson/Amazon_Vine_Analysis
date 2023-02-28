@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Analysis Overview
-The focus of this project was to analyze Amazon reviews written by members of the paid Amazon Vine program. I used Pyspark to perform an ETL process to extract, transform, connect to an AWS RDS instance and load the transformed data into pgAdmin. I then used Pyspark to determine the bias towards favorable reviews from Vine members in my dataset. The dataset I chose was the one based off beauty sales.
+The primary objective of this project was to conduct a comprehensive analysis of Amazon reviews authored by the Amazon Vine program's paying members. Employing PySpark, I performed a systematic ETL process to extract, transform, and establish a connection with an AWS RDS instance to ultimately load the transformed data into pgAdmin. Further utilizing PySpark, I analyzed the dataset pertaining to beauty sales, evaluating the propensity towards favorable reviews from Vine members.
 
 ## Resources
 * Data source:
@@ -25,4 +25,4 @@ The focus of this project was to analyze Amazon reviews written by members of th
 ![](images/percentageof5stars.png)
 
 ## Summary
-In each review summary, you can see that the numbers of non-Vine reviews outweigh the number of Vine reviews. This shows that the positive feedback given on these beauty products are favorable by organic reach as well as paid reach.
+The review summary illustrates a greater count of non-Vine reviews as compared to Vine reviews, indicating that positive feedback regarding the beauty products is being generated through both organic and paid channels.
